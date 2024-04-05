@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ede6dd;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.header__link{
+    text-decoration: none;
+    color: #1e1928;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.header__link:hover{
+    color: red;
+    transition: 0.4s ease-in-out;
+}
+.header__link:active{
+    color: yellow;
+    transition: 0.4s ease-in-out;
+}
+.hero{
+    background-color: #ede6dd;
+    padding-top: 120px;
+    padding-bottom: 176px;
+}
+.hero__textbox{
+    width: 529px;
+}
+.hero__title{
+    color: #1e1928;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+}
+.hero__text{
+    margin-top: 24px;
+    margin-bottom: 82px;
+    color: #1e1928cc;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+}
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__iput-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px 8px 31px;
+    width: 448px;
+    background-color: #fff;
+    border-radius: 999px;
+}
+input{
+    border: none;
+}
+::placeholder{
+    color: #1e19283b;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.hero__btn{
+    border: none;
+    width: 179px;
+    border-radius: 999px;
+    padding: 10px 0;
+    background-color: rgb(30, 25, 40);
+    color: rgb(244, 239, 233);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.text{
+    position: relative;
+}
+.need{
+    left: 264px;
+    width: 400px;
+    height: 90px;
+    position: absolute;
+    color:#fff;
+    top: 80px;
+}
+.text_big{
+    position: absolute;
+    right: 100px;
+    margin-bottom: 30px;
+    font-family: "Roboto";
+}
+.text_super{
+    font-family: "Inter";
+    position: absolute;
+    top: 50px;
+}
+
+.neeed{
+    font-family:"Inter" ;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+   left: 264px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.Gold_textbox{
+    width: 1400px;
+    height: 600px;
+    right: 100px;
+    top: -200px;
+    position: relative;
+    background-color: bisque;
+    z-index: -1;
+}
+.text_k{
+    font-family: "Inter";
+    position: absolute;
+    right: 350px;
+    top: 200px;
+}
+.text_d{
+    position: absolute;
+    width: 400px;
+    font-family: "Inter";
+    height: 48px;
+    right: 140px;
+    top: 250px;
+}
+.number{
+    font-family: "Inter";
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: #000;
+    position: absolute;
+    right:570px;
+    top: 200px;
+}
+.text_g{
+    font-family: "Inter";
+    position: absolute;
+    right: 70px;
+    top: 400px;
+}
+.text_w{
+    flex-flow: "Inter";
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    right:150px;
+    top: 450px;
+}
+.number_2{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: #000;
+    position: absolute;
+    right:570px;
+    top: 400px;
+    font-family: "Inter";
+
+}
+.text_h{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    font-family: "Roboto";
+    font-size: 48px;
+}
+.new_text{
+    width: 300px;
+    height: 30xp;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "Inter";
+}
+.footer_child{
+    font-family: "Inter";
+}
+.should{
+
+}
